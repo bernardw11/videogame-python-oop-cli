@@ -12,5 +12,5 @@ print("Press enter to begin.")
 input()
 
 ## Have each player attack the other.
-jose.attack(lora)
-lora.attack(jose)
+first_fight = game.Battle(jose, lora)
+first_fight.start()
